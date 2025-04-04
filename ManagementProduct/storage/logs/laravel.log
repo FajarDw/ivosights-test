@@ -1,0 +1,740 @@
+[2025-04-02 11:30:54] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(146): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#19 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#20 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#21 {main}
+"} 
+[2025-04-02 11:30:54] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#16 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#18 {main}
+"} 
+[2025-04-02 11:30:54] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#15 {main}
+"} 
+[2025-04-02 11:30:55] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#13 {main}
+"} 
+[2025-04-02 11:30:55] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#11 {main}
+"} 
+[2025-04-02 11:30:55] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#9 {main}
+"} 
+[2025-04-02 11:30:55] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#7 {main}
+"} 
+[2025-04-02 11:30:55] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(509): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(148): Illuminate\\Foundation\\Http\\Kernel->renderException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#4 {main}
+"} 
+[2025-04-02 11:30:56] local.ERROR: Uncaught TypeError: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned in C:\laragon\www\ivosight-tech-test\app\Exceptions\Handler.php:39
+Stack trace:
+#0 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(218): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#1 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(TypeError))
+#4 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught TypeError: App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned in C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39
+Stack trace:
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(218): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(195): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(Object(TypeError))
+#4 {main}
+  thrown at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 {main}
+"} 
+[2025-04-02 11:30:58] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(146): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#19 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#20 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#21 {main}
+"} 
+[2025-04-02 11:30:58] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#16 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#18 {main}
+"} 
+[2025-04-02 11:30:59] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#15 {main}
+"} 
+[2025-04-02 11:30:59] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#13 {main}
+"} 
+[2025-04-02 11:30:59] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#11 {main}
+"} 
+[2025-04-02 11:30:59] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#9 {main}
+"} 
+[2025-04-02 11:30:59] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#7 {main}
+"} 
+[2025-04-02 11:31:00] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(509): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(148): Illuminate\\Foundation\\Http\\Kernel->renderException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#4 {main}
+"} 
+[2025-04-02 11:31:00] local.ERROR: Uncaught TypeError: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned in C:\laragon\www\ivosight-tech-test\app\Exceptions\Handler.php:39
+Stack trace:
+#0 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(218): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#1 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(TypeError))
+#4 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught TypeError: App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned in C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39
+Stack trace:
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(218): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(195): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(Object(TypeError))
+#4 {main}
+  thrown at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 {main}
+"} 
+[2025-04-02 11:33:10] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(146): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#19 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#20 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#21 {main}
+"} 
+[2025-04-02 11:33:11] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#16 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#18 {main}
+"} 
+[2025-04-02 11:33:11] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#15 {main}
+"} 
+[2025-04-02 11:33:11] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#13 {main}
+"} 
+[2025-04-02 11:33:11] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#11 {main}
+"} 
+[2025-04-02 11:33:12] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#9 {main}
+"} 
+[2025-04-02 11:33:12] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#7 {main}
+"} 
+[2025-04-02 11:33:12] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(509): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(148): Illuminate\\Foundation\\Http\\Kernel->renderException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#4 {main}
+"} 
+[2025-04-02 11:33:12] local.ERROR: Uncaught TypeError: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned in C:\laragon\www\ivosight-tech-test\app\Exceptions\Handler.php:39
+Stack trace:
+#0 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(218): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#1 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(TypeError))
+#4 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught TypeError: App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned in C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39
+Stack trace:
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(218): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(195): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(Object(TypeError))
+#4 {main}
+  thrown at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 {main}
+"} 
+[2025-04-02 11:33:30] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(146): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#19 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#20 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#21 {main}
+"} 
+[2025-04-02 11:33:31] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#16 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#18 {main}
+"} 
+[2025-04-02 11:33:31] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#15 {main}
+"} 
+[2025-04-02 11:33:31] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#13 {main}
+"} 
+[2025-04-02 11:33:31] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#11 {main}
+"} 
+[2025-04-02 11:33:31] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#9 {main}
+"} 
+[2025-04-02 11:33:32] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#7 {main}
+"} 
+[2025-04-02 11:33:32] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(509): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(148): Illuminate\\Foundation\\Http\\Kernel->renderException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#4 {main}
+"} 
+[2025-04-02 11:33:32] local.ERROR: Uncaught TypeError: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned in C:\laragon\www\ivosight-tech-test\app\Exceptions\Handler.php:39
+Stack trace:
+#0 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(218): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#1 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(TypeError))
+#4 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught TypeError: App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned in C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39
+Stack trace:
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(218): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(195): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(Object(TypeError))
+#4 {main}
+  thrown at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:39)
+[stacktrace]
+#0 {main}
+"} 
+[2025-04-02 11:33:57] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(146): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#19 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#20 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#21 {main}
+"} 
+[2025-04-02 11:33:57] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#16 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#17 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#18 {main}
+"} 
+[2025-04-02 11:33:58] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#15 {main}
+"} 
+[2025-04-02 11:33:58] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#13 {main}
+"} 
+[2025-04-02 11:33:58] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#11 {main}
+"} 
+[2025-04-02 11:33:58] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#9 {main}
+"} 
+[2025-04-02 11:33:58] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(51): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(188): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#7 {main}
+"} 
+[2025-04-02 11:33:59] local.ERROR: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned {"exception":"[object] (TypeError(code: 0): App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(509): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(148): Illuminate\\Foundation\\Http\\Kernel->renderException(Object(Illuminate\\Http\\Request), Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#3 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\laragon\\\\www\\\\...')
+#4 {main}
+"} 
+[2025-04-02 11:33:59] local.ERROR: Uncaught TypeError: App\Exceptions\Handler::render(): Return value must be of type Illuminate\Http\JsonResponse, Illuminate\Http\Response returned in C:\laragon\www\ivosight-tech-test\app\Exceptions\Handler.php:43
+Stack trace:
+#0 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(218): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#1 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\laragon\www\ivosight-tech-test\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(TypeError))
+#4 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught TypeError: App\\Exceptions\\Handler::render(): Return value must be of type Illuminate\\Http\\JsonResponse, Illuminate\\Http\\Response returned in C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43
+Stack trace:
+#0 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(218): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(TypeError))
+#1 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(195): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse(Object(TypeError))
+#2 C:\\laragon\\www\\ivosight-tech-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(TypeError))
+#3 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(Object(TypeError))
+#4 {main}
+  thrown at C:\\laragon\\www\\ivosight-tech-test\\app\\Exceptions\\Handler.php:43)
+[stacktrace]
+#0 {main}
+"} 

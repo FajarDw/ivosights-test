@@ -185,4 +185,12 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    /*
+    |--------------------------------------------------------------------------
+    | API Key
+    |--------------------------------------------------------------------------
+    |
+    */
+    'api_key' => env('API_KEY', 'YmFzZTY0OmZHbWN3eUViTnhlTUVOaC9Md0hNNDROV095bVhsa1p0Z0N1ZUM1dFVjbTQ9'),
+
 ];

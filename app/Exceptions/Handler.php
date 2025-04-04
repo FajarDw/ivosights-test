@@ -4,6 +4,9 @@ namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
+use App\Http\Responses\BaseResponse;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Response;
 
 class Handler extends ExceptionHandler
 {
@@ -26,5 +29,21 @@ class Handler extends ExceptionHandler
         $this->reportable(function (Throwable $e) {
             //
         });
+    }
+
+    public function render($request, Throwable $exception)
+    {
+        if ($request->expectsJson()) {
+            return BaseResponse::error('Internal Server Error', 500, $exception->getMessage());
+        }
+
+        // otherwise, still call parent::render
+        $response = parent::render($request, $exception);
+        // If respons not JSON, convert to JSON
+        if (!$response instanceof JsonResponse) {
+            return BaseResponse::error('An error occurred', $response->getStatusCode(), $exception->getMessage());
+        }
+
+        return $response;
     }
 }
