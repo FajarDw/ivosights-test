@@ -30,7 +30,7 @@ class ProductController extends Controller
             $validated['limit'] ?? 10
         );
 
-        return BaseResponse::success($products);
+        return BaseResponse::paginated($products);
     }
 
     /**

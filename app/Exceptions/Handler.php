@@ -5,8 +5,10 @@ namespace App\Exceptions;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
 use App\Http\Responses\BaseResponse;
+use Illuminate\Database\RecordsNotFoundException;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Response;
+use Illuminate\Validation\ValidationException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
 {
@@ -32,18 +34,42 @@ class Handler extends ExceptionHandler
     }
 
     public function render($request, Throwable $exception)
-    {
+    {   // Validasi input
+        if ($exception instanceof ValidationException) {
+            return BaseResponse::error(
+                'Validation Error',
+                422,
+                'validation_error',
+                $exception->errors()
+            );
+        }
+        // URL tidak ditemukan
+        if ($exception instanceof NotFoundHttpException) {
+            return BaseResponse::error(
+                'Route Not Found',
+                404,
+                'not_found'
+            );
+        }
+
+        // Data tidak ditemukan
+        if ($exception instanceof RecordsNotFoundException) {
+            return BaseResponse::error(
+                'Data Not Found',
+                404,
+                'data_not_found'
+            );
+        }
+
         if ($request->expectsJson()) {
-            return BaseResponse::error('Internal Server Error', 500, $exception->getMessage());
+            return BaseResponse::error(
+                $exception->getMessage() ?: 'Internal Server Error',
+                method_exists($exception, 'getStatusCode') ? $exception->getStatusCode() : 500,
+                'server_error'
+            );
         }
 
         // otherwise, still call parent::render
-        $response = parent::render($request, $exception);
-        // If respons not JSON, convert to JSON
-        if (!$response instanceof JsonResponse) {
-            return BaseResponse::error('An error occurred', $response->getStatusCode(), $exception->getMessage());
-        }
-
-        return $response;
+        return parent::render($request, $exception);
     }
 }

@@ -36,12 +36,12 @@ class ProductRequest extends FormRequest
         ];
     }
 
-    protected function failedValidation(Validator $validator)
-    {
-        throw new HttpResponseException(
-            BaseResponse::error('Validation Error', 422, $validator->errors())
-        );
-    }
+    // protected function failedValidation(Validator $validator)
+    // {
+    //     throw new HttpResponseException(
+    //         BaseResponse::error('Validation Error', 422, 'validation_failed', $validator->errors())
+    //     );
+    // }
 
     public function messages()
     {
